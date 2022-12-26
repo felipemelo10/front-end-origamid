@@ -1,0 +1,41 @@
+body{
+    margin: 50px;
+    font-family: Arial;
+}
+
+.caixa{
+    background-color: #111;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    color: white;
+    margin: 0;
+}
+
+stan{
+    color: #febe01;
+}
+
+p{
+    color: #b2b2b2;
+}
+
+button{
+    background-color: #febe01;
+    border-style: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: #332200;
+}
+
+button:hover{
+    background-color: #f7c223;
+    cursor: pointer;
+}
