@@ -1,0 +1,140 @@
+body{
+    font-family: Arial;
+    margin: 60px;
+    background: #f0f0f0;
+    display: grid;
+    justify-items: center;
+}
+
+p{
+    font-size: 20px;
+    margin: 0;
+}
+
+.logo{
+    display: grid;
+    justify-self: center;
+}
+
+.foto{
+    max-width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.header{
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    background: white;
+    padding: 15px 30px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-radius: 4px;
+}
+
+h1{
+    margin: 0;
+    text-align: right;
+    justify-self: end;
+    flex-wrap: wrap;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1000px;
+    justify-self: center;
+    position: relative;
+}
+
+.descricao{
+    text-align: right;
+    flex-wrap: wrap;
+}
+
+.botao{
+    text-decoration: none;
+    background: #ee2211;
+    color: white;
+    border-radius: 4px;
+    padding: 20px 30px;
+    justify-self: end;
+}
+
+.info{
+    display: grid;
+    gap: 20px;
+    place-items: start;
+    background: white;
+    padding: 40px;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.vantagensTitulo{
+    font-size: 64px;
+    color: #c6c6c6;
+    line-height: 1;
+    text-align: right;
+    margin: 40px;
+    align-self: center;
+}
+
+.vantagens{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-row: repeat(3, auto);
+    background: white;
+    gap: 10px 20px;
+    padding: 40px;
+    place-content: start;
+}
+
+.vantagens h2{
+    margin-top: 10px;
+}
+
+.vantagens img{
+    margin-top: 10px;
+}
+
+.vantagens p{
+    margin-bottom: 10px;
+}
+
+.icone{
+    grid-column: 1;
+}
+
+.vantagem{
+    grid-column: 2;
+}
+
+h2{
+    margin: 0;
+}
+
+hr{
+    height: 4px;
+    width: 70px;
+    background: #ee2211;
+    border-style: none;
+    position: absolute;
+    justify-self: center;
+    top: 40px;
+}
+
+footer{
+    margin-top: 50px;
+    font-size: 20px;
+    background: white;
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+    box-sizing: border-box;
+}
