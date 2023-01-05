@@ -2,9 +2,15 @@ body{
     font-family: Arial;
     background: #f7f7f7;
     display: grid;
-    gap: 60px;
+    gap: 3.75rem;
     justify-items: center;
     margin: 0;
+}
+
+header{
+    display: grid;
+    justify-content: center;
+    gap: 3.75rem;
 }
 
 p{
@@ -15,7 +21,7 @@ p{
 .logo{
     display: grid;
     justify-self: center;
-    margin-top: 60px;
+    margin-top: 3.75rem;
 }
 
 .foto{
@@ -27,17 +33,18 @@ ul{
     justify-content: center;
     flex-wrap: wrap;
     list-style: none;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .link{
     text-decoration: none;
     color: black;
     background: white;
-    padding: 15px 30px;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    padding: 1rem 2rem;
+    margin-top: 3.75rem;
+    margin-bottom: 3.75rem;
     border-radius: 4px;
+    border: 2px solid transparent;
 }
 
 .link:hover{
@@ -83,18 +90,21 @@ h1{
     gap: 20px;
     place-items: start;
     background: white;
-    padding: 40px;
+    padding: 2.5rem;
     align-content: center;
     flex-wrap: wrap;
 }
 
+.info h1{
+    font-size: 2rem;
+}
+
 .vantagens-titulo-bg{
     color: #c6c6c6;
-    padding: 40px;
+    padding: 2.5rem;
     display: flex;
     align-items: center;
     background-image: url(./img/onda.svg);
-    background-repeat: calc(10);
 }
 
 .vantagens-titulo{
@@ -106,7 +116,7 @@ h1{
 .vantagens{
     display: grid;
     background: white;
-    padding: 40px;
+    padding: 2.5rem;
 }
 
 .vantagens .vantagem-bg:nth-child(odd){
@@ -121,7 +131,7 @@ h1{
     border-style: none;
     justify-self: center;
     position: absolute;
-    top: 40px;
+    top: 2.5rem;
 }
 
 .icone{
@@ -139,12 +149,8 @@ h1{
     gap: 10px 20px;
 }
 
-.vantagem-bg:hover::before{
-    content: "";
-    background-color: #ee2211;
-    height: 142px;
-    width: 4px;
-    position: absolute;
+.vantagem-bg:hover{
+    border-left: 4px solid #ee2211;
 }
 
 h2{
@@ -156,7 +162,7 @@ footer{
     font-size: 1.3rem;
     background: white;
     width: 98vw;
-    padding: 40px;
+    padding: 2.5rem;
     text-align: center;
     box-sizing: border-box;
     margin-bottom: 0px;
