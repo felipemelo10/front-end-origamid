@@ -62,6 +62,8 @@ const comprasPreco = compras.map((valor) => {
     return +valor.preco.replace('R$ ', '').replace(',', '.');
 })
 
-const valorTotal = comprasPreco.reduce((acumulador, atual) => {
-    return acumulador + atual;
+const valorTotal = comprasPreco.reduce((acumulador, item) => {
+    return acumulador + item;
 }, 0)
+
+console.log(valorTotal);
