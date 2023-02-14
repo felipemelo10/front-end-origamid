@@ -15,9 +15,7 @@ console.log(whichType(objeto))
 // Crie um objeto quadrado com
 // a propriedade lados e torne
 // ela imutável
-const quadrado = {
-
-}
+const quadrado = {}
 
 Object.defineProperties(quadrado, {
   lados: {
@@ -25,6 +23,7 @@ Object.defineProperties(quadrado, {
   }
 })
 
+quadrado.lados = 5;
 console.log(quadrado.lados);
 
 
@@ -41,5 +40,5 @@ configuracao.teste = 700;
 // Liste o nome de todas
 // as propriedades do
 // protótipo de String e Array
-console.log(Object.getOwnPropertyNames(String));
-console.log(Object.getOwnPropertyNames(Array));
+console.log(Object.getOwnPropertyNames(String.prototype));
+console.log(Object.getOwnPropertyNames(Array.prototype));
